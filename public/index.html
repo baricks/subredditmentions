@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subreddits using search term in the last week</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1>Subreddits talking about a particular subject in the last week</h1>
+	<form<div>
+        <label for="word">Search term:</label>
+        <input type="text" id="search-term" />
+        <input type="button" value="Submit" onclick="readText()"/>
+    </div>
+</form>
+
+	<div id="dataviz"></div>
+
+	<script type="text/javascript" src="https://d3js.org/d3.v3.js" charset="utf-8"></script>
+	<script type="text/javascript" src="./underscore.js"></script>
+	<script type="text/javascript" src="./index.js"></script>
+	<br><br><br>
+	<footer>
+	<hr>
+	<div>Source: <a href="https://www.reddit.com/r/redditdev/comments/404v6p/finding_relevant_subreddits_for_a_specific_search/">Reddit</div>
+
+	</footer>
+
+</body>
+
+</html>
